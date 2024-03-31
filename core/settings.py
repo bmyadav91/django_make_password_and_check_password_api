@@ -13,6 +13,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# cross allowed origin 
+CORS_ALLOWED_ORIGINS = [
+    "https://www.aaaenos.com",
+]
 
 # Application definition
 

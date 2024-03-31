@@ -14,9 +14,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # cross allowed origin 
-CORS_ALLOWED_ORIGINS = [
-    "https://www.aaaenos.com",
-]
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
